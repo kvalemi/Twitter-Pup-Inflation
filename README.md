@@ -3,6 +3,7 @@
 
 Today we will explore how dog ratings on the very famous Twitter page, @dog_rates, has changed over the past four years. If you aren’t familiar with @dog_rates it’s a Twitter page where dog owners post a tweet about their dogs which includes a picture of their dog, a comment about how cute their canine is, accompanied with a rating of their pet scored out of 10. We have gotten hold of a sample of tweets made on the page from 2016 up until now, and plan on analyzing the tweets for any interesting insights. The first thing we did was to extract the ratings from each tweet by using some fairly simple regular expression algorithms. Once we did this, we created some cool visualizations to see the distribution of all of the dog ratings.
 
+![](/1-%20All%20Data%20Histogram.png)
 
 This is a pretty interesting plot. The concentration of data points, being either the mean or median, appears to be around 12.5. Did we already mention that these ratings are supposed to be out of 10; it’s very clear that some people are cheating, 1577 to be exact! Let’s explore the distribution of dog ratings grouped by year.
 

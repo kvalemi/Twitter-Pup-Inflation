@@ -7,9 +7,11 @@ Today we will explore how dog ratings on the very famous Twitter page, @dog_rate
 
 This is a pretty interesting plot. The concentration of data points, being either the mean or median, appears to be around 12.5. Did we already mention that these ratings are supposed to be out of 10; it’s very clear that some people are cheating, 1577 to be exact! Let’s explore the distribution of dog ratings grouped by year.
 
+![](/2%20-%20Yearly%20Histogram.png)
 
 From these plots, we can see that people were much more honest in 2016; ouch, someone rated their dog a 3 out 10. We can see that starting from 2017, the distribution of ratings began to drastically shift right with no ratings dipping below 10. It appears that ratings are steadily increasing over time. People are either (1) getting more dishonest, or (2) dogs are way getting cuter. Let’s put all of this data together into scatterplot and fit a line of best fit.
 
+![](/3%20-%20Scatterplot%20Fit.png)
 
 Once again, we see that ratings below 10 are a lot more apparent in 2016 in comparison to all other years. Also, the Line of Best Fit obtained from doing basic Linear Regression, shows us that the dog ratings are in fact increasing over time. So why is this happening? Are humans getting more dishonest on the internet? Are dogs really getting exponentially cuter causing our standard metrics of cuteness to no longer hold? As far as I can tell, no will ever know… Here is a fun fact though, as a result of doing some simple Natural Language Processing, I compiled a list of the most common dog names found in the tweets:
 
